@@ -1,5 +1,4 @@
 import os
-import urlparse
 import code
 import oauth2 as oauth
 from pprint import pprint
