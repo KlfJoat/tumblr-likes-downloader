@@ -14,3 +14,7 @@ I had to manually install the following 3 packages.
 1. `/usr/bin/python pip install pytumblr`
 2. `/usr/bin/python pip install oauth2`
 3. `/usr/bin/python pip install pprint`
+### 3. Create API and OAuth keys
+Go to https://www.tumblr.com/docs/en/api/v2 and follow the directions there.  
+
+Click the 'Explore API' link to log in using your newly created application, get an OAuth token, and then view the 4 secrets you will need to replace in this script.  (CONSUMER_KEY, CONSUMER_SECRET, OAUTH_TOKEN, OAUTH_TOKEN_SECRET)
