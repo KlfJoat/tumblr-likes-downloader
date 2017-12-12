@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+# From https://gist.github.com/jeffaudi/89bba20e839d99e4afab
 import pytumblr
 import os
 import sys
@@ -21,6 +22,7 @@ downloaded = []
 try:
 
   # Authenticate via OAuth
+  # https://www.tumblr.com/docs/en/api/v2
   client = pytumblr.TumblrRestClient(
   'CONSUMER_KEY',
   'CONSUMER_SECRET',
