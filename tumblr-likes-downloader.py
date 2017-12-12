@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 import pytumblr
 import os
+import sys
 import code
 import oauth2 as oauth
 from pprint import pprint
